@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>酷快修-手机上门维修首选 正规认证、品质保障</title>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">		   
+ 	    <!---
+	    *  网页基本设置
+	    ================================================== -->		
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="description" content="手机快修专家，手机维修" />
+		<meta name="author" content="酷快修"/>
+		<meta name="keywords" content="手机快修专家，手机维修" />
+		<!--禁止百度转码-->
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<!--兼容ie-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <!---
+	    *  移动端设置
+	    ================================================== -->	
+	    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0"/>		
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		
+		
+		<script src="./lib/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./lib/login.js" type="text/javascript" charset="utf-8"></script>
+
+
+		<script type="text/javascript">					
+			window.alert = function(name){
+			  var iframe = document.createElement("IFRAME");
+			  iframe.style.display="none";
+			  iframe.setAttribute("src", 'data:text/plain,');
+			  document.documentElement.appendChild(iframe);
+			  window.frames[0].window.alert(name);
+			  iframe.parentNode.removeChild(iframe);
+			 };					
+		</script>
+	</head>
+	<body>
+		<div id="login">
+			<div class="login_contianer">
+				<img src="img/logo.png" class="logo_Img"/>
+				<div class="login_showTxtBox">
+					<div class="login_showTxt01">您身边的手机维修专家</div>
+					<div class="login_showTxt02">老铁，给你最好的上门服务</div>					
+				</div>
+				
+				<!--注册-->
+				<div class="loginBox">
+					<input value="" class="login_tel" placeholder="请输入您的手机号码" maxlength="11" oninput = "value=value.replace(/[^\d]/g,'')"/>
+					<input value="" class="login_tel" placeholder="请输入您的密码" type="password"/>
+					<input value="" class="login_tel" placeholder="请输入再次您的密码" type="password"/>												
+					
+					<div class="VeriCode">
+						<input value="" class="login_Code" placeholder="请输入验证码" maxlength="6" oninput = "value=value.replace(/[^\d]/g,'')"/>						
+						<img class="get_Code_Img" src="img/ioc03.png"/>
+					</div>						
+					<div class="VeriCode">
+						<input value="" class="login_Code" placeholder="验证码" maxlength="6" oninput = "value=value.replace(/[^\d]/g,'')"/>						
+						<button class="get_Code">获取验证码</button>
+					</div>
+					<button class="submitBtn">注   册</button>
+				</div>				
+				
+				<!--登陆-->
+				<div class="loginBox">
+					<input value="" class="login_tel" placeholder="请输入您的手机号码" maxlength="11" oninput = "value=value.replace(/[^\d]/g,'')"/>
+					<input value="" class="login_tel" placeholder="请输入您的密码" type="password"/>
+					<button class="submitBtn">登  陆</button>
+				</div>
+					
+				
+				<!--找回密码-->
+				<div class="loginBox">
+					<!--验证手机号码和验证是否匹配-->
+					<input value="" class="login_tel" placeholder="请输入您的手机号码" maxlength="11" oninput = "value=value.replace(/[^\d]/g,'')"/>															
+					<div class="VeriCode">
+						<input value="" class="login_Code" placeholder="请输入验证码" maxlength="6" oninput = "value=value.replace(/[^\d]/g,'')"/>						
+						<img class="get_Code_Img" src="img/ioc03.png"/>
+					</div>								
+					<div class="VeriCode">
+						<input value="" class="login_Code" placeholder="请输入验证码" maxlength="6" oninput = "value=value.replace(/[^\d]/g,'')"/>						
+						<button onclick="settime(this)" class="get_Code">获取验证码</button>
+					</div>						
+					<!--验证通过后隐藏上面，显示下面这两个输入框-->
+					<input value="" class="login_tel" placeholder="请输入您的新密码" type="password"/>
+					<input value="" class="login_tel" placeholder="请输入再次您的新密码" type="password"/>	
+					
+					
+					<button class="submitBtn">确  定</button>
+					
+				</div>
+				
+				
+			</div>			
+		</div>
+		
+		<!--异常，成功，错误弹窗-->
+		<div class="Popup_Box">
+			<div class="Popup_continer">
+				<img src="img/bg03.PNG" alt="" class="Popup_continer_Bg"/>
+				<div class="Popup_infoBox">
+					<img src="img/close.png" alt="" class="Popup_close"/>
+					<div class="Popup_txt">账号错误~</div>
+					<button class="Popup_Btn">确 定</button>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+	</body>
+</html>
+

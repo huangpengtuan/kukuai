@@ -611,6 +611,55 @@ const tempStr = `
 			</div>
 		</div>
 	</div>
+	
+	
+	<div id="outInfo">
+		<h3 class="tittle-w3"><span>常见</span>问题 </h3>				
+		
+		<div class="g1 agile-blog1">
+			<img src="img/out01.png" alt="blog1">
+			<div class="text-w3">
+				<h3 class="tittle-w3 sub-head"><span>维修流程</span></h3>
+				<p class="para-w3l">
+					1.预约下单：下单途径主要有①淘宝商城店铺；②微信小程序；③官网。<br />
+					2.选择服务方式：主要方式有①到店维修；②邮寄维修；③上门维修。<br />
+					3.检测确认故障：专业人员当面系统性检测，透明公开。<br />
+					4.维修：现场维修，规范有序，标准专业。<br />
+					5.交付：维修完成后支付。<br />							
+				</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>				
+		
+		<div class="g2 agile-blog2">
+			<img src="img/out02.png" alt="blog1">
+			<div class="text-w3l">
+				<h3 class="tittle-w3 sub-head"><span>官方售前售后QQ群</span></h3>
+				<p class="para-w3l">
+					酷快修一群 3776030 <br />
+					酷快修二群 38360823 <br />
+					酷快修三群 746884234<br />
+					酷快修四群 24160623<br />
+					酷快修五群 38360734<br />
+				</p>						
+			</div>
+			<div class="clearfix"></div>
+		</div>				
+		
+		<div class="g1 agile-blog1">
+			<img src="img/out03.png" alt="blog1">
+			<div class="text-w3">
+				<h3 class="tittle-w3 sub-head"><span>酷快修介绍</span></h3>
+				<p class="para-w3l">
+					Goodcall酷快修是美国顶级维修服务商Bad Apple Inc. 的中国直营公司，公司经过对美国内华达州拉斯维加斯、犹他州盐湖城、亚利桑那州凤凰城等地几十家实体门店长达8年的运行，以其货真价实的维修配件，绝不欺瞒的真诚服务，成熟专业的技术流程，在几千个谷歌消费者评价中长期保持4.8分（满分5分）的超好评。 如今我们有幸来到中国，保持着旨在让您的设备被真正善待地修复的信念，希望用品牌给出承诺，令服务创造信心。						
+				</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		
+		
+	</div>	
+	
 </div>	
 `;
 
